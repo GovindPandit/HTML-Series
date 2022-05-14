@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Animation Demo</title>
+		<style>
+			div
+			{
+				height:100px;
+				width:100px;
+				background:blue;
+				animation-name:animation_1;
+				animation-duration:8s;
+				position:relative;
+			}
+			
+			@keyframes animation_1
+			{
+				0%{background:blue;top:0;left:0;}
+				20%{background:green;top:300;left:0;}
+				40%{background:yellow;top:300;left:300;}
+				60%{background:orange;top:0;left:300;}
+				80%{background:khaki;top:0;left:600;}
+				100%{background:red;top:300;left:600;}
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>
